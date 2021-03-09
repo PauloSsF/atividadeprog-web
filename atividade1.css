@@ -1,54 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
 #titulo{
-    font-family: sans-serif;
+    font-family: "Open Sans", sans-serif;
     color: rgb(238, 234, 234);
 }
 
 #subtitulo{
-    font-family: sans-serif;
+    font-family: "Open Sans", sans-serif;
     color: rgb(238, 234, 234);
 }
 
+body{
+    background: linear-gradient(45deg, rgb(6, 58, 107), rgb(19, 8, 56));
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}
+
 #rodape{
-    font-family: sans-serif;
+    font-family: "Open Sans", sans-serif;
     color: rgb(238, 234, 234);
     margin-left: 5%;
 }
 
 header{
-    border: 1px solid;
-    width: 1420px;
+    border-radius: 4px;
     margin: 10px 20px 30px 30px;
-    background: rgb(6, 133, 95);
+    background: linear-gradient(45deg, rgb(6, 177, 140), rgb(14, 167, 27));
     display: block;
     text-align: center;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5)
 }
 
 main{
     border-radius: 4px;
-    width: 400px;
-    height: 400px;
+    width: 430px;
+    height: 480px;
     margin: 10px 20px 30px 30px;
     background:rgb(6, 181, 204);
     position: absolute;
-    bottom: 102px;
-    left: 500px;
+    bottom: 55px;
+    left: 495px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5)
 }
 
 table, th, td {
     border: 1px solid black;
     color: rgb(238, 234, 234);
+    font-family: "Open Sans", sans-serif;
 }
 
 table{
     position: absolute;
-    width: 200px;
-    height: 150px;
-    bottom: 120px;
-    left: 80px;
+    width: 310px;
+    height: 226px;
+    bottom: 168px;
+    left: 54px;
+    font-family: "Open Sans", sans-serif;
 }
 
 #nome-tabela{
-    font-family: sans-serif;
+    font-family: "Open Sans", sans-serif;
     color: rgb(238, 234, 234);
     margin-left: 5%;
 }
@@ -58,53 +69,56 @@ img{
     height: 250px;
     position: absolute;
     bottom: 90px;
-    left: 25px;
+    left: 40px;
 }
 
 #nome-imagem{
-    font-family: sans-serif;
+    font-family: "Open Sans", sans-serif;
     color: rgb(238, 234, 234);
     margin-left: 5%;
 }
 
 aside{
     border-radius: 4px;
-    width: 400px;
-    height: 400px;
+    width: 430px;
+    height: 480px;
     margin: 10px 20px 30px 30px;
     background:rgb(22, 21, 82);
     position: absolute;
-    bottom: 102px;
+    bottom: 55px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5)
 }
 
 #nome-lista{
-    font-family: sans-serif;
+    font-family: "Open Sans", sans-serif;
     color: rgb(238, 234, 234);
     margin-left: 5%;
 }
 
 #itens{
-    font-family: sans-serif;
+    font-family: "Open Sans", sans-serif;
     color: rgb(238, 234, 234);
     margin-left: 5%;
 }
 
 #esquerda{
     border-radius: 4px;
-    width: 400px;
-    height: 400px;
+    width: 430px;
+    height: 480px;
     margin: 10px 20px 30px 30px;
     background:rgb(6, 17, 170);
     position: absolute;
-    bottom: 102px;
-    left: 1030px;
+    bottom: 55px;
+    left: 990px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5)
 }
 
 footer{
     border-radius: 4px;
     margin: 10px 20px 30px 30px;
-    background: rgb(11, 179, 114);
+    background: linear-gradient(45deg, rgb(11, 190, 35), rgb(4, 36, 7));
     position: absolute;
-    bottom: 0;
+    bottom: -20px;
     width: 95%;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5)
 }

@@ -1,0 +1,29 @@
+header{
+    border: 1px solid;
+    margin: 10px 20px 30px 30px;
+    background: blue;
+}
+
+aside{
+    border: 1px solid;
+    margin: 10px 20px 30px 30px;
+    background: green;
+}
+
+main{
+    border: 1px solid;
+    margin: 10px 20px 30px 30px;
+    background: yellow;
+}
+
+aside{
+    border: 1px solid;
+    margin: 10px 20px 30px 30px;
+    background: red:
+}
+
+footer{
+    border: 1px solid;
+    margin: 10px 20px 30px 30px;
+    background: purple;
+}

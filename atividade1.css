@@ -1,29 +1,110 @@
-header{
-    border: 1px solid;
-    margin: 10px 20px 30px 30px;
-    background: blue;
+#titulo{
+    font-family: sans-serif;
+    color: rgb(238, 234, 234);
 }
 
-aside{
+#subtitulo{
+    font-family: sans-serif;
+    color: rgb(238, 234, 234);
+}
+
+#rodape{
+    font-family: sans-serif;
+    color: rgb(238, 234, 234);
+    margin-left: 5%;
+}
+
+header{
     border: 1px solid;
+    width: 1420px;
     margin: 10px 20px 30px 30px;
-    background: green;
+    background: rgb(6, 133, 95);
+    display: block;
+    text-align: center;
 }
 
 main{
-    border: 1px solid;
+    border-radius: 4px;
+    width: 400px;
+    height: 400px;
     margin: 10px 20px 30px 30px;
-    background: yellow;
+    background:rgb(6, 181, 204);
+    position: absolute;
+    bottom: 102px;
+    left: 500px;
+}
+
+table, th, td {
+    border: 1px solid black;
+    color: rgb(238, 234, 234);
+}
+
+table{
+    position: absolute;
+    width: 200px;
+    height: 150px;
+    bottom: 120px;
+    left: 80px;
+}
+
+#nome-tabela{
+    font-family: sans-serif;
+    color: rgb(238, 234, 234);
+    margin-left: 5%;
+}
+
+img{
+    width: 350px;
+    height: 250px;
+    position: absolute;
+    bottom: 90px;
+    left: 25px;
+}
+
+#nome-imagem{
+    font-family: sans-serif;
+    color: rgb(238, 234, 234);
+    margin-left: 5%;
 }
 
 aside{
-    border: 1px solid;
+    border-radius: 4px;
+    width: 400px;
+    height: 400px;
     margin: 10px 20px 30px 30px;
-    background: red:
+    background:rgb(22, 21, 82);
+    position: absolute;
+    bottom: 102px;
+}
+
+#nome-lista{
+    font-family: sans-serif;
+    color: rgb(238, 234, 234);
+    margin-left: 5%;
+}
+
+#itens{
+    font-family: sans-serif;
+    color: rgb(238, 234, 234);
+    margin-left: 5%;
+}
+
+#esquerda{
+    border-radius: 4px;
+    width: 400px;
+    height: 400px;
+    margin: 10px 20px 30px 30px;
+    background:rgb(6, 17, 170);
+    position: absolute;
+    bottom: 102px;
+    left: 1030px;
 }
 
 footer{
-    border: 1px solid;
+    border-radius: 4px;
     margin: 10px 20px 30px 30px;
-    background: purple;
+    background: rgb(11, 179, 114);
+    position: absolute;
+    bottom: 0;
+    width: 95%;
 }

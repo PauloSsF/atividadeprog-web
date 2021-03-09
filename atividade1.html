@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,45 +7,59 @@
     <title>Minha pagina</title>
     <link rel="stylesheet" href="atividade1.css">
 </head>
+
 <body>
     
     <!--cabeçalho-->
     <header>
-        <h1>Meu site</h1>
-        <p>Bem vindo ao meu site</p>
+        <h1 id="titulo"><strong>Meu site</strong></h1>
+        <p id="subtitulo">Bem vindo ao meu site</p>
         <br>
     </header>
 
-    <!--lateral direita (falta so colocar na direita)-->
-    <aside>
-        <nav>
-            <ul>
-                <li>link 1</li>
-                <li>link 2</li>
-            </ul>
-        </nav>
-    </aside>
-
-    <!--corpo-->
+    <!--corpo com a tabela-->
     <main>
-        <h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero a, animi eum earum aperiam ratione commodi ea hic sunt dolor dolores nobis, rem praesentium. Iure aperiam exercitationem assumenda eaque obcaecati?</p>
-        </h2>
+        <table>
+            <p id="nome-tabela"><strong>Tabela</strong></p>
+            <tr>
+                <th>Primeiro Nome</th>
+                <th>Ultimo nome</th>
+                <th>Idade</th>
+            </tr>
+            <tr>
+                <td>Paulo</td>
+                <td>Filho</td>
+                <td>21</td>
+            </tr>
+            <tr>
+                <td>Ana</td>
+                <td>Souza</td>
+                <td>25</td>
+            </tr>
+        </table>
     </main>
 
-    <!--lateral esquerda (falta colocar na esquerda)-->
-    <aside>
-        <nav>
-            <ul>
-                <li>link 3</li>
-                <li>link 4</li>
-            </ul>
-        </nav>
+    <!--lateral direita-->
+    <aside id="lateral">
+        <p id="nome-imagem"><strong>Imagem</strong></p>
+        <img src="imagem.png"/>
+    </aside>
+
+    <!--lateral esquerda-->
+    <aside id="esquerda">
+        <p id="nome-lista"><strong>Lista</strong></p>
+        <ul id="itens">
+            <li>Item 1</li>
+            <li>Item 2</li>
+            <li>Item 3</li>
+            <li>Item 4</li>
+            <li>Item 5</li>
+        </ul>
     </aside>
 
     <!--rodapé-->
     <footer>
-        <p>Escrito em 08/03/2021</p>
+        <p id="rodape"><strong>Pagina criada por: Paulo Sérgio</strong></p>
     </footer>
 
 </body>

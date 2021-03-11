@@ -22,9 +22,9 @@ body{/* modificação do body, com um gradiente com as cores */
     margin-left: 5%;
 }
 
-header{ /* id para modificação para o bloco do cabeçalho */
+header{ /* id para modificação para o bloco do cabeçalho */ 
+    height: 90px;
     border-radius: 4px;
-    margin: 10px 20px 30px 30px;
     background: linear-gradient(50deg, rgb(6, 177, 140), rgb(14, 167, 27));
     display: block;
     text-align: center;

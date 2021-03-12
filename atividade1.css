@@ -115,10 +115,9 @@ aside{ /* modificação para o bloco da esquerda */
 
 footer{ /* modificação para o bloco da rodapé*/
     border-radius: 4px;
-    margin: 10px 20px 30px 30px;
     background: linear-gradient(45deg, rgb(11, 190, 35), rgb(4, 36, 7));
     position: absolute;
     bottom: -20px;
-    width: 95%;
-    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5)
+    width: 99%;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);
 }

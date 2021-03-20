@@ -19,24 +19,53 @@
 
     <!--Corpo com a tabela-->
     <main>
-        <table>
-            <p id="nome-tabela"><strong>Tabela</strong></p>
-            <tr>
-                <th>Primeiro Nome</th>
-                <th>Ultimo nome</th>
-                <th>Idade</th>
-            </tr>
-            <tr>
-                <td>Paulo</td>
-                <td>Filho</td>
-                <td>21</td>
-            </tr>
-            <tr>
-                <td>Ana</td>
-                <td>Souza</td>
-                <td>25</td>
-            </tr>
-        </table>
+        <div>
+            <div>
+                <h2>Cadastro</h2>
+                <form>
+                    <div>
+                        <label>Nome</label>
+                        <input type="text" name="nome" />
+                    </div>
+                    <div>
+                        <label>E-mail</label>
+                        <input type="email" name="email" />
+                    </div>
+                    <div>
+                        <label>Telefone</label>
+                        <input type="text" name="telefone" />
+                    </div>
+                </form>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>
+                                Nome
+                            </th>
+                            <th>
+                                E-mail
+                            </th>
+                            <th>
+                                Telefone
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>
+                                Paulo
+                            </td>
+                            <td>
+                                email@email.com
+                            </td>
+                            <td>
+                                (35) 11111-1111
+                            </td>
+                        </tr>    
+                    </tbody>
+                </table>
+            </div>
+        </div>
     </main>
 
     <!--Bloco direito com a lista não ordenada-->

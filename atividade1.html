@@ -6,35 +6,54 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Minha pagina</title>
     <link rel="stylesheet" href="atividade1.css">
+    <script type="text/javascript" src="funcao.js"></script>
 </head>
 
 <body>
     
     <!--Cabeçalho com um titulo e subtitulo-->
     <header>
-        <h1 id="titulo"><strong>Meu site</strong></h1>
-        <p id="subtitulo">Bem vindo ao meu site</p>
-        <br>
+        <div class="center">
+            <div class="titulo">
+                <h1><strong>Meu Site</strong></h1>
+                <p><strong>Bem-Vindo</strong></p>
+            </div> <!--Menu com algumas opções, só para exemplo mesmo-->
+            <div class="menu">
+                <a href="#">
+                    Home
+                </a>
+                <a href="#">
+                    Sobre
+                </a>
+                <a href="#">
+                    Contato
+                </a>
+                <a class="botaomenu" href="#">
+                    Login
+                </a>
+            </div>
+        </div>    
     </header>
 
     <!--Corpo com a tabela-->
     <main>
-        <div>
-            <div>
+        <div class="conteudo">
+            <div id = "cadts">
                 <h2>Cadastro</h2>
-                <form>
+                <form onsubmit="return enviarFormulario(this);">
                     <div>
-                        <label>Nome</label>
-                        <input type="text" name="nome" />
+                        <label class="campo">Nome</label>
+                        <input id="nome" class="form-input" type="text" name="nome" />
                     </div>
                     <div>
-                        <label>E-mail</label>
-                        <input type="email" name="email" />
+                        <label class="campo">E-mail</label>
+                        <input id="email" class="form-input" type="email" name="email" />
                     </div>
                     <div>
-                        <label>Telefone</label>
-                        <input type="text" name="telefone" />
+                        <label class="campo">Telefone</label>
+                        <input id="telefone" class="form-input" type="text" name="telefone" />
                     </div>
+                    <button>Cadastrar</button>
                 </form>
                 <table>
                     <thead>
@@ -53,13 +72,13 @@
                     <tbody>
                         <tr>
                             <td>
-                                Paulo
+                                
                             </td>
                             <td>
-                                email@email.com
+                                
                             </td>
                             <td>
-                                (35) 11111-1111
+                            
                             </td>
                         </tr>    
                     </tbody>
@@ -88,7 +107,7 @@
 
     <!--Rodapé com a informação-->
     <footer>
-        <p id="rodape"><strong>Pagina criada por: Paulo Sérgio 09/03/2021</strong></p>
+        <p id="rodape"><strong>Pagina criada por: Paulo Sérgio</strong></p>
     </footer>
 
 </body>

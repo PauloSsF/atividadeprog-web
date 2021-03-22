@@ -1,32 +1,76 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300&display=swap');
 
-#titulo{ /* id para modificação do que esta escrito no titulo */
-    font-family: "Open Sans", sans-serif;
-    color: rgb(238, 234, 234);
+*{ /*Resetando a pagina*/
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Titillium Web", sans-serif;
 }
 
-#subtitulo{ /* id para modificação do que esta escrito no subtitulo */
-    font-family: "Open Sans", sans-serif;
-    color: rgb(238, 234, 234);
+.center{ 
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 2%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+header{ /*Aplicando algumas configurações na classe onde fica o cabeçalho */
+    background: linear-gradient(50deg, rgb(64, 33, 201),rgb(12, 4, 129));
+    padding:20px 0;
+    border-bottom: 2px solid rgb(12, 64, 95);
+}
+
+.titulo{
+    color: rgb(230, 230, 235);
+    font-size: 15px;
+    font-weight: normal;
+    font-family: "Titillium Web", sans-serif;
+}
+
+.menu{
+    width: 70%;
+    text-align: right;
+    font-family: "Titillium Web", sans-serif;
+}
+
+.menu a{
+    color:  rgb(218, 218, 228);
+    text-decoration: none;
+    font-size: 20px;
+    cursor: pointer;
+    margin-right: 20px;
+    transition: 0.4s;
+    font-family: "Titillium Web", sans-serif;
+}
+
+.menu a:hover{
+    color: rgba(9, 69, 102, 0.856)
+}
+
+.menu .botaomenu{
+    background-color: rgba(243, 240, 233, 0.726);
+    display: inline-block;
+    padding: 4px 10px;
+    color: rgb(44, 16, 143);
+    border-radius: 4px;
+}
+
+.menu .botaomenu:hover{
+    background-color: rgb(20, 13, 119);
+    color: white;
 }
 
 body{/* modificação do body, com um gradiente com as cores */
-    background: linear-gradient(45deg, rgb(6, 58, 107), rgb(19, 8, 56));
+    background: linear-gradient(45deg, rgb(236, 235, 231), rgb(255, 255, 255));
     background-repeat: no-repeat;
     min-height: 100vh;
 }
 
 #rodape{ /* id para modificação do que esta escrito no rodapé*/
-    font-family: "Open Sans", sans-serif;
+    font-family: "Titillium Web", sans-serif;
     color: rgb(238, 234, 234);
     margin-left: 5%;
-}
-
-header{ /* id para modificação para o bloco do cabeçalho */
-    background: linear-gradient(50deg, rgb(6, 177, 140), rgb(14, 167, 27));
-    text-align: center;
-    height: 100%;
-    margin-bottom 10 px;
 }
 
 main{ /* id para modificação para o bloco do meio */
@@ -34,7 +78,7 @@ main{ /* id para modificação para o bloco do meio */
     width: 430px;
     height: 480px;
     margin: 10px 20px 30px 30px;
-    background:rgb(6, 181, 204);
+    background:rgb(48, 68, 179);
     position: absolute;
     bottom: 55px;
     left: 499px;
@@ -42,24 +86,49 @@ main{ /* id para modificação para o bloco do meio */
 }
 
 table, th, td { /* modificação do que contém na tabela */
-    border: 4px solid rgb(3, 56, 11);
+    border: 2px solid rgb(3, 56, 11);
     color: rgb(0, 0, 0);
-    font-family: "Open Sans", sans-serif;
+    font-family: "Titillium Web", sans-serif;
 }
 
 table{
     position: absolute;
-    width: 310px;
-    height: 226px;
-    bottom: 168px;
-    left: 54px;
-    font-family: "Open Sans", sans-serif;
+    width: 300px;
+    height: 50px;
+    bottom: 50px;
+    left: 65px;
+    font-family: "Titillium Web", sans-serif;
+    font-size: 13px;
 }
 
-#nome-tabela{ /* id para modificação para a fonte da tabela */
-    font-family: "Open Sans", sans-serif;
-    color: rgb(238, 234, 234);
-    margin-left: 5%;
+#cadts{
+    font-size: 20px;
+    text-align: center;
+}
+
+.conteudo{
+    width: 100%;
+    padding: 10px;
+}
+
+form label{
+    display: block;
+    font-weight: bold;
+    margin: 5px;
+    font-size: 15px;
+}
+
+form div{
+    margin: 20px;
+}
+
+form input{
+    width: 50%;
+}
+
+form button{
+    margin-top: 20px;
+    font-size: 15px;
 }
 
 img{ /* modificação do parametro da imagem */
@@ -71,7 +140,7 @@ img{ /* modificação do parametro da imagem */
 }
 
 #nome-imagem{
-    font-family: "Open Sans", sans-serif;
+    font-family: "Titillium Web", sans-serif;
     color: rgb(238, 234, 234);
     margin-left: 5%;
 }
@@ -81,20 +150,20 @@ aside{ /* modificação para o bloco da esquerda */
     width: 430px;
     height: 480px;
     margin: 10px 20px 30px 30px;
-    background:rgb(22, 21, 82);
+    background:rgb(48, 68, 179);
     position: absolute;
     bottom: 55px;
     box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5)
 }
 
 #nome-lista{
-    font-family: "Open Sans", sans-serif;
+    font-family: "Titillium Web", sans-serif;
     color: rgb(238, 234, 234);
     margin-left: 5%;
 }
 
 #itens{
-    font-family: "Open Sans", sans-serif;
+    font-family: "Titillium Web", sans-serif;
     color: rgb(238, 234, 234);
     margin-left: 5%;
 }
@@ -104,7 +173,7 @@ aside{ /* modificação para o bloco da esquerda */
     width: 430px;
     height: 480px;
     margin: 10px 20px 30px 30px;
-    background:rgb(6, 17, 170);
+    background:rgb(48, 68, 179);
     position: absolute;
     bottom: 55px;
     left: 990px;
@@ -112,12 +181,11 @@ aside{ /* modificação para o bloco da esquerda */
 }
 
 footer{ /* modificação para o bloco da rodapé*/
-    border-radius: 4px;
-    margin: 10px 20px 30px 30px;
-    background: linear-gradient(45deg, rgb(11, 190, 35), rgb(4, 36, 7));
+    background: linear-gradient(50deg, rgb(64, 33, 201),rgb(12, 4, 129));
     position: absolute;
     bottom: -20px;
-    width: 95%;
-    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 50px;
+    border-top: 2px solid rgb(187, 1, 1);
 }
 

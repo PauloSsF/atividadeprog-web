@@ -1,6 +1,13 @@
 function enviarFormulario(formulario) {   
 
-    document.getElementById("result-form").innerHTML += formulario.nome.value;
+    document.getElementsByTagName("tbody")[0].innerHTML +=
 
+    "<tr>\
+    <td> "+ formulario.nome.value + " </td>\
+    <td> "+ formulario.email.value + " </td>\
+    <td> "+ formulario.telefone.value + "</td>\
+    <tr>\
+    ";
     return false;
 }
+

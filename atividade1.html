@@ -43,7 +43,7 @@
                 <form onsubmit="return enviarFormulario(this);">
                     <div>
                         <label class="campo">Nome</label>
-                        <input id="nome" class="form-input" type="text" name="nome" />
+                        <input id="nome" class="nome-input" type="text" name="nome" />
                     </div>
                     <div>
                         <label class="campo">E-mail</label>
@@ -53,7 +53,7 @@
                         <label class="campo">Telefone</label>
                         <input id="telefone" class="form-input" type="text" name="telefone" />
                     </div>
-                    <button>Cadastrar</button>
+                    <button onclick="capturar()">Cadastrar</button>
                 </form>
                 <table>
                     <thead>
@@ -69,18 +69,7 @@
                             </th>
                         </tr>
                     </thead>
-                    <tbody>
-                        <tr>
-                            <td>
-                                
-                            </td>
-                            <td>
-                                
-                            </td>
-                            <td>
-                            
-                            </td>
-                        </tr>    
+                    <tbody>  
                     </tbody>
                 </table>
             </div>

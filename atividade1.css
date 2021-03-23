@@ -86,8 +86,8 @@ main{ /* id para modificação para o bloco do meio */
 }
 
 table, th, td { /* modificação do que contém na tabela */
-    border: 2px solid rgb(3, 56, 11);
-    color: rgb(0, 0, 0);
+    border: 2px solid rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
     font-family: "Titillium Web", sans-serif;
 }
 
@@ -109,6 +109,7 @@ table{
 .conteudo{
     width: 100%;
     padding: 10px;
+    color: rgb(255, 255, 255)
 }
 
 form label{
@@ -116,6 +117,7 @@ form label{
     font-weight: bold;
     margin: 5px;
     font-size: 15px;
+    color: rgb(255, 255, 255)
 }
 
 form div{

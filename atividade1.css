@@ -85,6 +85,20 @@ main{ /* id para modificação para o bloco do meio */
     box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5)
 }
 
+.conteudo .botaoform{
+    background-color: rgba(11, 11, 196, 0.726);
+    display: inline-block;
+    padding: 4px 10px;
+    color: rgb(240, 239, 243);
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.conteudo .botaoform:hover{
+    background-color: rgb(16, 7, 145);
+    color: white;
+}
+
 table, th, td { /* modificação do que contém na tabela */
     border: 2px solid rgb(255, 255, 255);
     color: rgb(255, 255, 255);
@@ -92,13 +106,13 @@ table, th, td { /* modificação do que contém na tabela */
 }
 
 table{
-    position: absolute;
+    margin-top: 4%;
     width: 300px;
     height: 50px;
-    bottom: 50px;
     left: 65px;
     font-family: "Titillium Web", sans-serif;
     font-size: 13px;
+    position: relative;
 }
 
 #cadts{
@@ -145,6 +159,8 @@ img{ /* modificação do parametro da imagem */
     font-family: "Titillium Web", sans-serif;
     color: rgb(238, 234, 234);
     margin-left: 5%;
+    text-align: center;
+    font-size: 35px;
 }
 
 aside{ /* modificação para o bloco da esquerda */
@@ -162,12 +178,15 @@ aside{ /* modificação para o bloco da esquerda */
     font-family: "Titillium Web", sans-serif;
     color: rgb(238, 234, 234);
     margin-left: 5%;
+    text-align: center;
+    font-size: 35px;
 }
 
 #itens{
     font-family: "Titillium Web", sans-serif;
     color: rgb(238, 234, 234);
-    margin-left: 5%;
+    margin-left: 25%;
+    margin-top: 20%;
 }
 
 #esquerda{ /* modificação para o bloco da direita */
